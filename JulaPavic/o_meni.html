@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O meni - Jula Pavic</title>
+</head>
+<body>
+  <header>
+    <h1>Jula Pavic</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="vjezbe.html">Vježbe</a></li>
+      <li><a href="video.html">Video</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <p>Ja sam Jula, i živim u Zagrebu. Imam dvije mačke i psa. Volim planinariti, izrađivati keramiku i svirat klavir.</p>
+    </section>
+
+    <section class="slike">
+      <img src="slike/Slika1.jpg" alt="Slika 1" />
+      <img src="slike/Slika2.jpg" alt="Slika 2" />
+      <img src="slike/Slika3.jpg" alt="Slika 3" />
+    </section>
+
+    <section>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nyvehUgBc3g?si=wXf0s8z-G8y_My0R" frameborder="0" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('slike/pozadina.jpg');
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      color: #4c3b3b;
+    }
+
+    header {
+      background-color: #ffc1c1;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 3rem;
+      margin: 0;
+      color: #802828;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #6b6b6b;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: inline-block;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #9a4a4a;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      color: #4c3b3b;
+    }
+
+    .slike img {
+      max-width: 30%;
+      margin: 0.5rem;
+      border: 3px solid white;
+      border-radius: 5px;
+      box-shadow: 0 0 8px rgba(154, 74, 74, 0.6);
+    }
+
+    iframe {
+      margin-top: 1rem;
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(154, 74, 74, 0.7);
+    }
+  </style>
+</body>
+</html>
